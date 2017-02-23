@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+<div id="app">
+    <div v-text="yy"></div>
+   <div v-dlo>{{ message }}</div>
+</div>
+<!--<script src="test.bundle.js"></script>-->
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script >
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue!',
+            yy: 'zz',
+        }
+    })
+</script>
+</body>
+</html>
