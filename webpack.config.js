@@ -7,7 +7,7 @@ module.exports = {
   /*entry: './src/main.js',*/
   entry: {
       app: "./src/main.js",
-      a: "./src/a.js"
+      home: "./src/a.js"
   },
   output: {
     path: './dist',
@@ -19,7 +19,11 @@ module.exports = {
      // filename: 'index-[hash].html',
       template: 'index.html',
       inject: 'head',
-      title: 'webpack is good'
+      title: 'webpack is good',
+/*      minify: { //压缩html
+        collapseWhitespace: true, // 清除空格
+        removeComments: true // 清除注释
+      }*/
     })
   ]
 };
