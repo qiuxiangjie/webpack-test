@@ -48,3 +48,6 @@ android/keystores/debug.keystore
 # ide
 .vscode/
 .deco/
+
+.deploy_git/
+node_modules/
